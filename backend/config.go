@@ -7,9 +7,8 @@ package backend
 import (
 	"encoding/json"
 	"errors"
+	"github.com/zxf0089216/influx-proxy/logs"
 	"os"
-
-	"github.com/wilhelmguo/influx-proxy/logs"
 )
 
 const (

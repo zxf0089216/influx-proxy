@@ -8,20 +8,20 @@
 ## X-URL:
 
 # Build variables
-REGISTRY_URI :=wilhelmguo
+REGISTRY_URI :=zxf0089216
 RELEASE_VERSION :=$(shell git describe --always --tags)
 
 all: build build-image push-image
 
 build:
 	mkdir -p bin
-	GOOS=linux GOARCH=amd64 go build -o bin/influx-proxy github.com/wilhelmguo/influx-proxy/service
+	GOOS=linux GOARCH=amd64 go build -o bin/influx-proxy github.com/zxf0089216/influx-proxy/service
 
 test:
-	go test -v github.com/wilhelmguo/influx-proxy/backend
+	go test -v github.com/zxf0089216/influx-proxy/backend
 
 bench:
-	go test -bench=. github.com/wilhelmguo/influx-proxy/backend
+	go test -bench=. github.com/zxf0089216/influx-proxy/backend
 
 clean:
 	rm -rf bin

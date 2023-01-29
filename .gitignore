@@ -1,8 +1,8 @@
 .idea/
-bin
+bin/
 testbk*
 *.dat
 *.rec
-bin/*
 
 .DS_Store
+*.exe

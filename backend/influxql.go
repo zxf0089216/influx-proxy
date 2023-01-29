@@ -10,7 +10,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/wilhelmguo/influx-proxy/logs"
+	"github.com/zxf0089216/influx-proxy/logs"
 )
 
 var (

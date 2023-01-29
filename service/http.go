@@ -6,13 +6,13 @@ package main
 
 import (
 	"compress/gzip"
+	"github.com/zxf0089216/influx-proxy/logs"
 	"io/ioutil"
 	"net/http"
 	"net/http/pprof"
 	"strings"
 
-	"github.com/wilhelmguo/influx-proxy/backend"
-	"github.com/wilhelmguo/influx-proxy/logs"
+	"github.com/zxf0089216/influx-proxy/backend"
 )
 
 type HttpService struct {

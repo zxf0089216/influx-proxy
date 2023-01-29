@@ -7,12 +7,12 @@ package main
 import (
 	"errors"
 	"flag"
+	"github.com/zxf0089216/influx-proxy/logs"
 	"net/http"
 	"os"
 	"time"
 
-	"github.com/wilhelmguo/influx-proxy/backend"
-	"github.com/wilhelmguo/influx-proxy/logs"
+	"github.com/zxf0089216/influx-proxy/backend"
 )
 
 var (

@@ -6,7 +6,7 @@ package backend
 
 import (
 	"encoding/binary"
-	"github.com/wilhelmguo/influx-proxy/logs"
+	"github.com/zxf0089216/influx-proxy/logs"
 	"io"
 	"os"
 	"path/filepath"

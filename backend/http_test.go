@@ -6,7 +6,7 @@ package backend
 
 import (
 	"bytes"
-	"log"
+	"github.com/zxf0089216/influx-proxy/logs"
 	"net/http"
 	"net/http/httptest"
 	"net/url"
